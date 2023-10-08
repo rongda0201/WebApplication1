@@ -2,10 +2,6 @@
 using System.Diagnostics;
 using WebApplication1.Models;
 
-test
-fuck
-
-
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
@@ -23,6 +19,11 @@ namespace WebApplication1.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Test()
         {
             return View();
         }
